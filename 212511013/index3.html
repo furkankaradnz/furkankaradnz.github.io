@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sözleri</title>
+    <link href="css/style1.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style1.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script src="js/dynamic.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="liste">
+    <ul class="list-group">
+        <li class="list-group-item">Atatürk Sözleri</li>
+      
+      
+        <li class="list-group-item list-group-item-primary">Hayatta En Hakiki Mürşit <span style="color:red">İlimdir,Fendir</span>.</li>
+        <li class="list-group-item list-group-item-secondary"><span style="color:green">Yurtta Sulh</span>,<span style="color:blue">Cihanda Sulh</span>.</li>
+        <li class="list-group-item list-group-item-success"><span style="color:aqua">İstikbal Göklerdedir.</span></li>
+        <li class="list-group-item list-group-item-danger">Ne Mutlu<span style="color:rgb(221, 0, 0)">Türküm</span> Diyene!</li>
+        <li class="list-group-item list-group-item-warning">Benim naçiz vücudum elbet bir gün toprak olacaktır, ancak <span style="color:rgb(255, 102, 0)">Türkiye Cumhuriyeti</span> ilelebet payidar kalacaktır.</li>
+        <li class="list-group-item list-group-item-info">Sizlere saldırmanızı değil, <span style="color:brown">ölmenizi emrediyorum.</span></li>
+        <li class="list-group-item list-group-item-light">Bu millete çok şey öğretebildim ama onlara <span style="color:yellowgreen">uşak olmayı</span> bir türlü öğretemedim.</li>
+        <li class="list-group-item list-group-item-dark">Beni görmek demek mutlaka yüzümü görmek demek değildir. <span style="color:blueviolet">Benim fikirlerimi, benim duygularımı</span> anlıyorsanız ve hissediyorsanız bu yeterlidir.</li>
+      </ul>
+        </div>
+
+        <p id="gozler"></p>
+        <script>ata()</script>
+
+
+<br>
+        <h1>Resim</h1>
+
+<p>Genişletmek için tıklayınız.</p>
+
+<img src="img/ataturk1.jpg" alt="Paris" id="myImg" width="400" height="300">
+<button onclick="genis()">Tıkla</button>
+
+<script>function genis() {
+    document.getElementById("myImg").style.objectFit = "cover";
+  }</script>
+
+      
+</body>
+</html>
